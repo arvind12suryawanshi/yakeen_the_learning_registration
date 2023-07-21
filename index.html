@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    
+<div class="container2">
+    <h1 class="heading2" id="register-heading2"></h1>
+  </div>
+
+
+
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="#" method=" ">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input required
+                  type="text"
+                  class="form-control"
+                  id="firstName"
+                  name="firstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="lastName" >Last Name</label>
+                <input required
+                  type="text"
+                  class="form-control"
+                  id="lastName"
+                  name="lastName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input required
+                      type="radio"
+                      name="gender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input required
+                      type="radio"
+                      name="gender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+                  <label for="others" class="radio-inline"
+                    ><input required
+                      type="radio"
+                      name="gender"
+                      value="o"
+                      id="others"
+                    />Others</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input  required
+                  type="text"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input  required
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  name="password"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input  required
+                  type="number"
+                  class="form-control"
+                  id="number"
+                  name="number"
+                />
+              </div>
+              <!-- <input type="submit" class="btn btn-primary" /> -->
+          
+
+          <div class="container3">
+            <h2>Our Online Courses </h2>
+            <form id="registrationForm3">
+              <label>
+                <input type="radio" name="course" value="chatgpt" onclick="showPrice('chatgpt')" required> ChatGPT
+              </label>
+              <label>
+                <input type="radio" name="course" value="freelancing" onclick="showPrice('freelancing')" required> Freelancing
+              </label>
+              <h3 id="coursePrice3">Course Price: </h3>
+              <input type="submit" value="Submit Now" onclick="redirectToPaymentGateway()">
+              <!-- <input type="submit" class="btn btn-primary" /> -->
+            </form>
+          </div>
+
+          
+
+          <div class="panel-footer text-right">
+            <small>&copy; Yakeen The Learning</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <!-- <img src="..." class="rounded mr-2" alt="..."> -->
+    <!-- <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small> -->
+    <!-- <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button> -->
+  </div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container3">
+    <h2>Course Registration Form</h2>
+    <form id="registrationForm3">
+      <label>
+        <input type="radio" name="course" value="chatgpt" onclick="showPrice('chatgpt')"> ChatGPT
+      </label>
+      <label>
+        <input type="radio" name="course" value="freelancing" onclick="showPrice('freelancing')"> Freelancing
+      </label>
+      <h3 id="coursePrice3">Course Price: </h3>
+      <input type="submit" value="Submit Now" onclick="redirectToPaymentGateway()">
+    </form>
+  </div> -->
+
+
+
+
+
+
+
+<script src="react.js"></script>
+  </body>
+</html>
